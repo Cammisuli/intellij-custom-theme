@@ -112,12 +112,25 @@
         <option name="FOREGROUND" value="f1f1f1" />
       </value>
     </option>
+    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="414141" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="e2edff" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9289fe" />
+        <option name="BACKGROUND" value="414141" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="SASS_VARIABLE">
       <value>
         <option name="FOREGROUND" value="9289fe" />
@@ -128,6 +141,13 @@
         <option name="FOREGROUND" value="f1f1f1" />
         <option name="BACKGROUND" value="333333" />
         <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="f1f1f1" />
       </value>
     </option>
   </attributes>
