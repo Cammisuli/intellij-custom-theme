@@ -4,19 +4,21 @@
   "author": "jonathan cammisuli",
   "editorScheme": "/cammisuli.xml",
   "colors": {
-    "borderColor": "#333333",
+    "borderColor": "#1c2026",
     "tabColor": "#333333",
     "inactive": "#444444",
     "selected": "#6a6a6a",
     "button": "#6a6a6a",
     "white": "#f1f1f1",
-    "background": "#333333",
+    "background": "#2a323a",
+    "darkbackground": "#1c2026",
+    "headerbackground": "#21252c",
     "accent": "#52a0fd"
   },
   "ui": {
     "*": {
       "foreground": "#f1f1f1",
-      "background": "#333333",
+      "background": "headerbackground",
       "borderColor": "borderColor",
       "selectionBackground": "selected",
       "selectionForeground": "#fdf6e3",
@@ -51,7 +53,6 @@
       }
     },
 
-
     "Component": {
       "errorFocusColor": "#bf616a",
       "inactiveErrorFocusColor": "#bf616a",
@@ -65,17 +66,15 @@
       "areaBackground": "#1E2A3E",
       "areaBorderColor": "borderColor"
     },
+    "Editor.background": "#2a323a",
 
     "EditorPane.inactiveBackground": "inactive",
 
     "EditorTabs": {
-      "background": "#444444",
-     "underlinedTabBackground": "background",
+      "background": "headerbackground",
+      "underlinedTabBackground": "headerbackground",
       "underlineColor": "accent"
     },
-
-
-
     "Group.disabledSeparatorColor": "borderColor",
 
     "InplaceRefactoringPopup.borderColor": "borderColor",
@@ -84,62 +83,6 @@
     "Label.errorForeground": "#af304a",
 
     "NavBar.borderColor": "borderColor",
-
-    "Notification": {
-      "background": "#1E2A3E",
-      "borderColor": "#586E75",
-      "errorForeground": "#bac8cb",
-      "errorBackground": "#4d232e",
-      "errorBorderColor": "#802e44",
-      "MoreButton": {
-        "background": "#1E2A3E",
-        "foreground": "#bac8cb",
-        "innerBorderColor": "borderColor"
-      },
-      "ToolWindow": {
-        "informativeForeground": "#bac8cb",
-        "informativeBackground": "button",
-        "informativeBorderColor": "borderColor",
-        "warningForeground": "#bac8cb",
-        "warningBackground": "#8d8d55",
-        "warningBorderColor": "borderColor",
-        "errorForeground": "#bac8cb",
-        "errorBackground": "#802d43",
-        "errorBorderColor": "#4d1c2b"
-      }
-    },
-
-
-    "Popup": {
-      "paintBorder": true,
-      "borderColor": "borderColor",
-      "inactiveBorderColor": "borderColor",
-      "Toolbar.borderColor": "borderColor",
-      "Header.activeBackground": "inactive",
-      "Header.inactiveBackground": "inactive",
-      "separatorForeground": "borderColor",
-      "Advertiser": {
-        "foreground": "#bac8cb",
-        "borderColor": "borderColor",
-        "borderInsets": "4,8,3,0"
-      }
-    },
-
-    "PopupMenu": {
-      "borderWidth": 1,
-      "borderInsets": "1,1,1,1"
-    },
-
-    "ProgressBar": {
-      "trackColor": "#1E2A3E",
-      "progressColor": "#029098",
-      "indeterminateStartColor": "#02858e",
-      "indeterminateEndColor": "#2cb0a7",
-      "failedColor": "#ff4262",
-      "failedEndColor": "#a12a3e",
-      "passedColor": "#2cb0a7",
-      "passedEndColor": "#026d76"
-    },
 
     "SearchEverywhere": {
       "Header.background": "#1E2A3E",
@@ -191,7 +134,10 @@
       "Actions.background": "#1E2A3E"
     },
 
-    "Tree.rowHeight": 22,
+    "Tree":{
+      "rowHeight": 25,
+      "background": "darkbackground"
+    },
 
     "VersionControl": {
       "GitLog.localBranchIconColor": "#02858e",
@@ -202,20 +148,18 @@
 
     "ToolWindow": {
       "Header": {
-        "background": "background",
-        "inactiveBackground": "background"
+        "background": "headerbackground",
+        "inactiveBackground": "headerbackground"
       },
       "HeaderTab": {
-        "hoverBackground": "background",
-        "selectedInactiveBackground": "background",
-        "hoverInactiveBackground": "background"
+        "hoverBackground": "headerbackground",
+        "selectedInactiveBackground": "headerbackground",
+        "hoverInactiveBackground": "headerbackground"
       }
     }
   },
-
   "icons": {
     "ColorPalette": {
-
       "Actions.Green": "#52b455",
       "Actions.Grey": "#bac8cb",
       "Actions.Yellow": "#e1e797",

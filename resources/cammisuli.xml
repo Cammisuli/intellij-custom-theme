@@ -1,10 +1,12 @@
 <scheme name="cammisuli" version="142" parent_scheme="Darcula">
   <colors>
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="696969" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="72a038" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="629755" />
-    <option name="GUTTER_BACKGROUND" value="333333" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="" />
+    <option name="GUTTER_BACKGROUND" value="2a323a" />
+    <option name="CARET_ROW_COLOR" value="" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="1c2026" />
     <option name="LINE_NUMBERS_COLOR" value="676767" />
   </colors>
   <attributes>
@@ -144,7 +146,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f1f1f1" />
-        <option name="BACKGROUND" value="333333" />
+        <option name="BACKGROUND" value="2a323a" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
