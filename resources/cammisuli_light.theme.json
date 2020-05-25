@@ -1,0 +1,42 @@
+{
+  "name": "cammisuli-light",
+  "dark": false,
+  "author": "",
+  "editorScheme": "/cammisuli_light.xml",
+  "colors": {
+    "headerbackground": "#FFF",
+    "border": "#fafafa",
+    "white": "#FFF",
+    "button": "#6a6a6a"
+  },
+  "ui": {
+    "*": {
+      "background": "headerbackground"
+    },
+    "Borders": {
+      "color": "border",
+      "ContrastBorderColor": "border"
+    },
+    "EditorTabs": {
+      "background": "headerbackground",
+      "underlineHeight": "1",
+      "underlinedTabBackground": "white",
+      "hoverBackground": "white"
+    },
+    "Panel.background": "white",
+    "Button.background": "white",
+    "CheckBox.background": "white",
+    "TextArea.background": "white",
+    "Tree": {
+      "rowHeight": 30,
+      "selectionBackground": "#cdd1d6",
+      "selectionForeground": "#000",
+      "background": "#f1f1f1"
+    },
+    "ToolWindow": {
+      "Header.inactiveBackground": "headerbackground",
+      "Header.background": "headerbackground",
+      "HeaderTab.underlineHeight": "1"
+    }
+  }
+}

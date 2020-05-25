@@ -25,6 +25,7 @@
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
     <themeProvider id="0b7f6d21-9abd-4a39-8144-b43de189fe57" path="/cammisuli.theme.json"/>
+    <themeProvider id="d934d9dc-b72d-4d9a-9a46-316c335d81be" path="/cammisuli_light.theme.json"/>
   </extensions>
 
   <actions>
