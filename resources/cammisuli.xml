@@ -1,13 +1,12 @@
 <scheme name="cammisuli" version="142" parent_scheme="Darcula">
   <colors>
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="696969" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="" />
     <option name="GUTTER_BACKGROUND" value="2a323a" />
     <option name="CARET_ROW_COLOR" value="" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1c2026" />
-    <option name="LINE_NUMBERS_COLOR" value="676767" />
+    <option name="RIGHT_MARGIN_COLOR" value="3d4853" />
+    <option name="SELECTED_TEARLINE_COLOR" value="58a8fd" />
+    <option name="LINE_NUMBERS_COLOR" value="3d4853" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="e6e6e6" />
   </colors>
   <attributes>
     <option name="CSS.CLASS_NAME">

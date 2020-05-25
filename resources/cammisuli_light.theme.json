@@ -4,9 +4,9 @@
   "author": "",
   "editorScheme": "/cammisuli_light.xml",
   "colors": {
-    "headerbackground": "#FFF",
-    "border": "#fafafa",
-    "white": "#FFF",
+    "headerbackground": "#FFFFFF",
+    "border": "#eaeaea",
+    "white": "#FFFFFF",
     "button": "#6a6a6a"
   },
   "ui": {

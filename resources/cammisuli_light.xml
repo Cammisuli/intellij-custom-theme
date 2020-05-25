@@ -5,11 +5,11 @@
     <option name="INDENT_GUIDE" value="f1f1f1" />
     <option name="LINE_NUMBERS_COLOR" value="e6e6e6" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="7f8994" />
-    <option name="RIGHT_MARGIN_COLOR" value="fafafa" />
+    <option name="RIGHT_MARGIN_COLOR" value="eaeaea" />
     <option name="SELECTED_TEARLINE_COLOR" value="58a8fd" />
     <option name="SELECTION_BACKGROUND" value="c2eafd" />
     <option name="SELECTION_FOREGROUND" value="" />
-    <option name="TEARLINE_COLOR" value="f1f1f1" />
+    <option name="TEARLINE_COLOR" value="eaeaea" />
   </colors>
   <attributes>
     <option name="DEFAULT_ATTRIBUTE">
