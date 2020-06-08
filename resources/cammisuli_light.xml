@@ -5,11 +5,11 @@
     <option name="INDENT_GUIDE" value="f1f1f1" />
     <option name="LINE_NUMBERS_COLOR" value="e6e6e6" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="7f8994" />
-    <option name="RIGHT_MARGIN_COLOR" value="eaeaea" />
+    <option name="RIGHT_MARGIN_COLOR" value="fafafa" />
     <option name="SELECTED_TEARLINE_COLOR" value="58a8fd" />
     <option name="SELECTION_BACKGROUND" value="c2eafd" />
     <option name="SELECTION_FOREGROUND" value="" />
-    <option name="TEARLINE_COLOR" value="eaeaea" />
+    <option name="TEARLINE_COLOR" value="f1f1f1" />
   </colors>
   <attributes>
     <option name="DEFAULT_ATTRIBUTE">
@@ -118,7 +118,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -141,6 +140,28 @@
     </option>
     <option name="TAB_SELECTED_INACTIVE">
       <value />
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
+      <value>
+        <option name="FOREGROUND" value="868686" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
+      <value>
+        <option name="FOREGROUND" value="ff6da8" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="bfbfbf" />
+      </value>
+    </option>
+    <option name="EXECUTIONPOINT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="ffcfa0" />
+      </value>
     </option>
   </attributes>
 </scheme>
