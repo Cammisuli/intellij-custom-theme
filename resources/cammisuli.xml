@@ -1,12 +1,22 @@
 <scheme name="cammisuli" version="142" parent_scheme="Darcula">
   <colors>
-    <option name="GUTTER_BACKGROUND" value="2a323a" />
     <option name="CARET_ROW_COLOR" value="" />
     <option name="CONSOLE_BACKGROUND_KEY" value="1c2026" />
-    <option name="RIGHT_MARGIN_COLOR" value="3d4853" />
-    <option name="SELECTED_TEARLINE_COLOR" value="58a8fd" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d54a40" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d54a40" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d54a40" />
+    <option name="FILESTATUS_MODIFIED" value="247abb" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="247abb" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="247abb" />
+    <option name="FILESTATUS_UNKNOWN" value="d54a40" />
+    <option name="FILESTATUS_modifiedOutside" value="247abb" />
+    <option name="GUTTER_BACKGROUND" value="2a323a" />
     <option name="LINE_NUMBERS_COLOR" value="3d4853" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="e6e6e6" />
+    <option name="RIGHT_MARGIN_COLOR" value="3d4853" />
+    <option name="SELECTED_TEARLINE_COLOR" value="ffffff" />
+    <option name="TEARLINE_COLOR" value="3d4853" />
   </colors>
   <attributes>
     <option name="CSS.CLASS_NAME">
@@ -56,13 +66,22 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_FUNCTION_DECLARATION" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="9289fe" />
+      </value>
+    </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="e2edff" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="9289fe" />
+      </value>
+    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="fdf394" />
@@ -91,13 +110,13 @@
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="558bfd" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="558bfd" />
+        <option name="FOREGROUND" value="9289fe" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -159,5 +178,11 @@
         <option name="FOREGROUND" value="f1f1f1" />
       </value>
     </option>
+    <option name="DEFAULT_GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="247ba0" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
   </attributes>
 </scheme>

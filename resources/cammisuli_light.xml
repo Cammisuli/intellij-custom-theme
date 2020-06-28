@@ -12,6 +12,18 @@
     <option name="TEARLINE_COLOR" value="f1f1f1" />
   </colors>
   <attributes>
+    <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
+      <value>
+        <option name="FOREGROUND" value="868686" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
+      <value>
+        <option name="FOREGROUND" value="ff6da8" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="52a0fd" />
@@ -91,6 +103,16 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="bfbfbf" />
+      </value>
+    </option>
+    <option name="EXECUTIONPOINT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="ffcfa0" />
+      </value>
+    </option>
     <option name="HTML_TAG">
       <value>
         <option name="FOREGROUND" value="54c3fd" />
@@ -140,28 +162,6 @@
     </option>
     <option name="TAB_SELECTED_INACTIVE">
       <value />
-    </option>
-    <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
-      <value>
-        <option name="FOREGROUND" value="868686" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
-      <value>
-        <option name="FOREGROUND" value="ff6da8" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="bfbfbf" />
-      </value>
-    </option>
-    <option name="EXECUTIONPOINT_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="ffcfa0" />
-      </value>
     </option>
   </attributes>
 </scheme>

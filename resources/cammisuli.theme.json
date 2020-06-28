@@ -6,7 +6,7 @@
   "colors": {
     "headerbackground": "#21252c",
     "border": "#2d313b",
-    "white": "#21252c",
+    "black": "#21252c",
     "button": "#6a6a6a"
   },
   "ui": {
@@ -24,10 +24,10 @@
       "hoverBackground": "headerbackground"
 
     },
-    "Panel.background": "white",
-    "Button.background": "white",
-    "CheckBox.background": "white",
-    "TextArea.background": "white",
+    "Panel.background": "black",
+    "Button.background": "black",
+    "CheckBox.background": "black",
+    "TextArea.background": "black",
     "Tree": {
       "rowHeight": 30,
       "background": "#1c2026"
