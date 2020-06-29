@@ -5,7 +5,7 @@
   "editorScheme": "/cammisuli.xml",
   "colors": {
     "headerbackground": "#21252c",
-    "border": "#2d313b",
+    "border": "#1c2026",
     "black": "#21252c",
     "button": "#6a6a6a"
   },
@@ -21,7 +21,8 @@
       "background": "headerbackground",
       "underlineHeight": "1",
       "underlinedTabBackground": "headerbackground",
-      "hoverBackground": "headerbackground"
+      "hoverBackground": "headerbackground",
+      "underlineColor": "#247abb"
 
     },
     "Panel.background": "black",
@@ -30,12 +31,18 @@
     "TextArea.background": "black",
     "Tree": {
       "rowHeight": 30,
-      "background": "#1c2026"
+      "background": "headerbackground"
     },
     "ToolWindow": {
       "Header.inactiveBackground": "headerbackground",
       "Header.background": "headerbackground",
       "HeaderTab.underlineHeight": "1"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Objects.Red": "#b80000",
+      "Objects.Blue": "#247abb"
     }
   }
 }

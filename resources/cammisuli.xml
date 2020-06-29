@@ -11,7 +11,7 @@
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="247abb" />
     <option name="FILESTATUS_UNKNOWN" value="d54a40" />
     <option name="FILESTATUS_modifiedOutside" value="247abb" />
-    <option name="GUTTER_BACKGROUND" value="2a323a" />
+    <option name="GUTTER_BACKGROUND" value="1c2026" />
     <option name="LINE_NUMBERS_COLOR" value="3d4853" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="e6e6e6" />
     <option name="RIGHT_MARGIN_COLOR" value="3d4853" />
@@ -25,14 +25,14 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="CSS.KEYWORD" baseAttributes="" />
     <option name="CSS.PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="f1f1f1" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.TAG_NAME" baseAttributes="HTML_TAG_NAME" />
+    <option name="CSS.TAG_NAME" baseAttributes="" />
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="52a0fd" />
@@ -50,7 +50,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="58a8fd" />
+        <option name="FOREGROUND" value="3985ff" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -69,6 +69,11 @@
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="9289fe" />
+      </value>
+    </option>
+    <option name="DEFAULT_GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="247ba0" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -90,7 +95,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="58a8fd" />
+        <option name="FOREGROUND" value="247abb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -148,7 +153,6 @@
         <option name="FOREGROUND" value="e2edff" />
       </value>
     </option>
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="9289fe" />
@@ -164,7 +168,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f1f1f1" />
-        <option name="BACKGROUND" value="2a323a" />
+        <option name="BACKGROUND" value="1c2026" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -178,11 +182,10 @@
         <option name="FOREGROUND" value="f1f1f1" />
       </value>
     </option>
-    <option name="DEFAULT_GLOBAL_VARIABLE">
+    <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="247ba0" />
+        <option name="FOREGROUND" value="247abb" />
       </value>
     </option>
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
   </attributes>
 </scheme>
