@@ -1,7 +1,7 @@
 <scheme name="cammisuli" version="142" parent_scheme="Darcula">
   <colors>
     <option name="CARET_ROW_COLOR" value="" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="1c2026" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="21252c" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d54a40" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d54a40" />
@@ -25,17 +25,15 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.KEYWORD" baseAttributes="" />
     <option name="CSS.PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="f1f1f1" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CSS.TAG_NAME" baseAttributes="" />
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="52a0fd" />
+        <option name="FOREGROUND" value="1287db" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -50,7 +48,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="3985ff" />
+        <option name="FOREGROUND" value="247ba0" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -60,25 +58,28 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="cacaca" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_FUNCTION_DECLARATION">
-      <value>
-        <option name="FOREGROUND" value="9289fe" />
-      </value>
-    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="247ba0" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="afafaf" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -89,13 +90,12 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="fdf394" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="d4c085" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="247abb" />
+        <option name="FOREGROUND" value="58a8fd" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -105,20 +105,37 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ece3c0" />
+      </value>
+    </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="e5ba8f" />
+        <option name="FOREGROUND" value="ad8c6b" />
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value />
+    </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="ece3c0" />
+        <option name="EFFECT_COLOR" value="ece3c0" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_REASSIGNED_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="afafaf" />
+        <option name="EFFECT_COLOR" value="707d95" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value />
     </option>
-    <option name="DEFAULT_STATIC_FIELD">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
+    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="9289fe" />
@@ -148,11 +165,10 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION">
-      <value>
-        <option name="FOREGROUND" value="e2edff" />
-      </value>
-    </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="9289fe" />
@@ -172,6 +188,13 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="TODO_DEFAULT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="73bf" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+      </value>
+    </option>
     <option name="TS.TYPE_GUARD">
       <value />
     </option>
@@ -180,11 +203,6 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="f1f1f1" />
-      </value>
-    </option>
-    <option name="DEFAULT_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="247abb" />
       </value>
     </option>
   </attributes>
