@@ -12,25 +12,37 @@
     <option name="FILESTATUS_UNKNOWN" value="d54a40" />
     <option name="FILESTATUS_modifiedOutside" value="247abb" />
     <option name="GUTTER_BACKGROUND" value="1c2026" />
+    <option name="INDENT_GUIDE" value="1c2026" />
     <option name="LINE_NUMBERS_COLOR" value="3d4853" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="e6e6e6" />
     <option name="RIGHT_MARGIN_COLOR" value="3d4853" />
     <option name="SELECTED_TEARLINE_COLOR" value="ffffff" />
     <option name="TEARLINE_COLOR" value="3d4853" />
+    <option name="VISUAL_INDENT_GUIDE" value="" />
+    <option name="SELECTED_INDENT_GUIDE" value="3d4853" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="CSS.CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="3985ff" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="CSS.IMPORTANT">
+      <value>
+        <option name="FOREGROUND" value="d54a40" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CSS.KEYWORD" baseAttributes="" />
     <option name="CSS.PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="f1f1f1" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="CSS.TAG_NAME" baseAttributes="" />
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="1287db" />
@@ -41,6 +53,11 @@
       <value>
         <option name="FOREGROUND" value="2cc02c" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="d4c085" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -83,11 +100,6 @@
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="DEFAULT_INSTANCE_METHOD">
-      <value>
-        <option name="FOREGROUND" value="9289fe" />
-      </value>
-    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="d4c085" />
@@ -95,7 +107,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="58a8fd" />
+        <option name="FOREGROUND" value="1287db" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -135,7 +147,12 @@
     <option name="DEFAULT_SEMICOLON">
       <value />
     </option>
-    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="9289fe" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="9289fe" />
@@ -144,7 +161,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="ffcb5b" />
+        <option name="FOREGROUND" value="e5d48b" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
@@ -236,6 +253,36 @@
     <option name="SASS_KEYWORD">
       <value>
         <option name="FOREGROUND" value="58a8fd" />
+      </value>
+    </option>
+    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="MARKDOWN_BOLD">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_BOLD_MARKER">
+      <value>
+        <option name="FOREGROUND" value="58a8fd" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MARKDOWN_ITALIC">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MARKDOWN_TABLE_SEPARATOR">
+      <value>
+        <option name="FOREGROUND" value="9289fe" />
+        <option name="EFFECT_COLOR" value="9289fe" />
+      </value>
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="9289fe" />
+        <option name="BACKGROUND" value="414141" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
