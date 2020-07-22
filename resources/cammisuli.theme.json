@@ -37,7 +37,8 @@
       "Header.inactiveBackground": "headerbackground",
       "Header.background": "headerbackground",
       "HeaderTab.underlineHeight": "1"
-    }
+    },
+    "StatusBar.borderColor":  "border"
   },
   "icons": {
     "ColorPalette": {
