@@ -22,7 +22,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="1c2026" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="CSS.CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="3985ff" />
@@ -51,11 +51,6 @@
       <value>
         <option name="FOREGROUND" value="2cc02c" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_CLASS_NAME">
-      <value>
-        <option name="FOREGROUND" value="d4c085" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -100,7 +95,7 @@
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="d4c085" />
+        <option name="FOREGROUND" value="40a893" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -180,6 +175,10 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="MARKDOWN_BOLD">
       <value>
         <option name="FONT_TYPE" value="1" />
