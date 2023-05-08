@@ -15,7 +15,7 @@
     <option name="GUTTER_BACKGROUND" value="1c2026" />
     <option name="INDENT_GUIDE" value="1c2026" />
     <option name="INFORMATION_HINT" value="21252c" />
-    <option name="LINE_NUMBERS_COLOR" value="3d4853" />
+    <option name="LINE_NUMBERS_COLOR" value="e6e6e6" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="e6e6e6" />
     <option name="RIGHT_MARGIN_COLOR" value="3d4853" />
     <option name="SELECTED_INDENT_GUIDE" value="3d4853" />
@@ -86,17 +86,17 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_FUNCTION_DECLARATION" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="bfa5" />
+      </value>
+    </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="247ba0" />
       </value>
     </option>
-    <option name="DEFAULT_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="e3e3e3" />
-      </value>
-    </option>
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
@@ -127,6 +127,12 @@
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="ff7ba6" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="e3e3e3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -179,6 +185,19 @@
         <option name="ERROR_STRIPE_COLOR" value="43698d" />
       </value>
     </option>
+    <option name="ERRORS_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="bc3f3c" />
+        <option name="ERROR_STRIPE_COLOR" value="9e2927" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
+    <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="287bde" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_TAG">
@@ -189,16 +208,38 @@
     <option name="HTML_TAG_NAME">
       <value />
     </option>
+    <option name="HYPERLINK_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="287bde" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="414141" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="INFO_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="aeae80" />
+        <option name="ERROR_STRIPE_COLOR" value="756d56" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CAST_VALUE">
+      <value />
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value />
+    </option>
     <option name="MARKDOWN_BOLD">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -256,7 +297,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="f1f1f1" />
+        <option name="FOREGROUND" value="d2d2d2" />
         <option name="BACKGROUND" value="1c2026" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -276,6 +317,12 @@
         <option name="FOREGROUND" value="40a893" />
       </value>
     </option>
+    <option name="WARNING_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_COLOR" value="be9117" />
+        <option name="EFFECT_TYPE" value="4" />
+      </value>
+    </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_NAME">
@@ -293,23 +340,5 @@
         <option name="FOREGROUND" value="cacaca" />
       </value>
     </option>
-    <option name="ERRORS_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="bc3f3c" />
-        <option name="ERROR_STRIPE_COLOR" value="9e2927" />
-        <option name="EFFECT_TYPE" value="4" />
-      </value>
-    </option>
-    <option name="WARNING_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="be9117" />
-        <option name="ERROR_STRIPE_COLOR" value="be9117" />
-        <option name="EFFECT_TYPE" value="4" />
-      </value>
-    </option>
   </attributes>
-  <option name="FONT_SCALE" value="1.0" />
-  <option name="CONSOLE_FONT_NAME" value="Iosevka Custom" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.7" />
 </scheme>

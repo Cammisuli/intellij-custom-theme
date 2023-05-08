@@ -223,7 +223,6 @@
         <option name="BACKGROUND" value="e6e6e6" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TAB_SELECTED_INACTIVE">
       <value />
